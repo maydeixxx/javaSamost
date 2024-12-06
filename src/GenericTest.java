@@ -10,7 +10,7 @@ public class GenericTest {
         //given
         List<Integer> t1 = List.of(1, 2, 3, 4, 7, 8, 10);
         List<Integer> t2 = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        Generics<Integer, Number> genericTest = new Generics<>();
+        Generics<Integer> genericTest = new Generics<>();
 
         //when
         List<Integer> testList = genericTest.firstGeneric(t1, t2);
@@ -24,7 +24,7 @@ public class GenericTest {
         //given
         List<Integer> t1 = List.of(1, 2, 3, 4, 7, 8, 10);
         List<Integer> t2 = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        Generics<Integer, Number> testGeneric = new Generics<>();
+        Generics<Integer> testGeneric = new Generics<>();
 
         //when
         List<Integer> result = testGeneric.secondGeneric(t1, t2);
@@ -38,7 +38,7 @@ public class GenericTest {
         //given
         List<Integer> t1 = List.of(1, 2, 3, 4, 7, 8, 10);
         List<Integer> t2 = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        Generics<Integer, Number> testGeneric = new Generics<>();
+        Generics<Integer> testGeneric = new Generics<>();
 
         //when
         List<Integer> result = testGeneric.thirdGeneric(t1, t2);
