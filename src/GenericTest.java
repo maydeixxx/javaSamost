@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 
 public class GenericTest {
     @Test
-    public <T> void GenericMethodsTest() {
+    public void GenericMethodsTest() {
         //given
         List<Integer> t1 = List.of(1, 2, 3, 4, 7, 8, 10);
         List<Integer> t2 = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
